@@ -1,0 +1,71 @@
+.frmLogin{
+    background:url(https://s-media-cache-ak0.pinimg.com/originals/df/52/bc/df52bcfebcb0d33aa131d182446e5760.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+.caja{
+    width: 100%;
+
+}
+.h2{
+    color: white;
+    text-decoration:inherit;
+    font-size: 35px;
+    text-align: center;
+}
+.divcaja{
+    padding: 5px;
+}
+@media(max-width: 375px){
+    .frmLogin{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/5f/bf/19/5fbf19e5e485217ffb0d7efa65115453.jpg);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    width: 100%;
+   /* margin: 0 auto;*/
+}
+.h2{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    text-decoration:overline;
+}
+}
+@media(min-width: 376px) and (max-width: 768px){
+    .frmLogin{
+    background-image: url(https://68.media.tumblr.com/3f01c96109ccf65ec1fcec2a1824dd79/tumblr_no9j186Bjv1r1d4seo1_500.gif);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 50%;
+}
+.h2{
+    color: #36b1d6;
+    font-size: 35px;
+    text-align: center;
+    text-decoration:overline;
+}
+#ins{
+   background-color: #ff8000;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 100px;
+}
+#ins:hover{
+    background-color: white;
+    color: #ff8000;
+    cursor:pointer;
+}
